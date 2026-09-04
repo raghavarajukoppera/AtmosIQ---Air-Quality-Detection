@@ -1,0 +1,62 @@
+{
+  "raw_rows": 139629,
+  "feature_rows": 9120,
+  "stations": 32,
+  "cities": [
+    "Ahmedabad",
+    "Bengaluru",
+    "Chennai",
+    "Delhi",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Pune"
+  ],
+  "date_range_utc": {
+    "start": "2025-02-11T18:00:00+00:00",
+    "end": "2025-02-28T18:15:00+00:00"
+  },
+  "graph_stats": {
+    "Delhi": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Mumbai": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Bengaluru": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Chennai": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Kolkata": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Hyderabad": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Pune": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    },
+    "Ahmedabad": {
+      "nodes": 4,
+      "edges": 6,
+      "components": 1
+    }
+  },
+  "sample_count": 2280
+}

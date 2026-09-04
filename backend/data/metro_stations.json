@@ -1,0 +1,296 @@
+{
+  "year": 2025,
+  "month": 2,
+  "target_per_city": 4,
+  "radius_km": 45.0,
+  "stations": [
+    {
+      "city": "Delhi",
+      "location_id": 7005,
+      "station_name": "Loni, Ghaziabad - UPPCB-3379597",
+      "lat": 28.757294,
+      "lon": 77.278792,
+      "distance_km": 17.33731242202413,
+      "sample_key": "records/csv.gz/locationid=7005/year=2025/month=02/location-7005-20250219.csv.gz"
+    },
+    {
+      "city": "Chennai",
+      "location_id": 11578,
+      "station_name": "Royapuram, Chennai - TNPCB-3379658",
+      "lat": 13.1036,
+      "lon": 80.2909,
+      "distance_km": 3.1917208980048954,
+      "sample_key": "records/csv.gz/locationid=11578/year=2025/month=02/location-11578-20250219.csv.gz"
+    },
+    {
+      "city": "Hyderabad",
+      "location_id": 344103,
+      "station_name": "ECIL Kapra, Hyderabad - TSPCB-3379750",
+      "lat": 17.470431,
+      "lon": 78.566959,
+      "distance_km": 12.75699393903043,
+      "sample_key": "records/csv.gz/locationid=344103/year=2025/month=02/location-344103-20250219.csv.gz"
+    },
+    {
+      "city": "Delhi",
+      "location_id": 5626,
+      "station_name": "DTU, New Delhi - CPCB-3379478",
+      "lat": 28.7500499,
+      "lon": 77.1112615,
+      "distance_km": 17.891369236449144,
+      "sample_key": "records/csv.gz/locationid=5626/year=2025/month=02/location-5626-20250219.csv.gz"
+    },
+    {
+      "city": "Delhi",
+      "location_id": 17,
+      "station_name": "R K Puram, Delhi - DPCC-3379481",
+      "lat": 28.563262,
+      "lon": 77.186937,
+      "distance_km": 6.028695021091851,
+      "sample_key": "records/csv.gz/locationid=17/year=2025/month=02/location-17-20250219.csv.gz"
+    },
+    {
+      "city": "Ahmedabad",
+      "location_id": 6937,
+      "station_name": "Sector-10, Gandhinagar - GPCB-3379590",
+      "lat": 23.221714,
+      "lon": 72.654328,
+      "distance_km": 23.719410974348285,
+      "sample_key": "records/csv.gz/locationid=6937/year=2025/month=02/location-6937-20250219.csv.gz"
+    },
+    {
+      "city": "Mumbai",
+      "location_id": 6948,
+      "station_name": "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB-3379606",
+      "lat": 19.10078,
+      "lon": 72.87462,
+      "distance_km": 2.7743530054917476,
+      "sample_key": "records/csv.gz/locationid=6948/year=2025/month=02/location-6948-20250219.csv.gz"
+    },
+    {
+      "city": "Mumbai",
+      "location_id": 6987,
+      "station_name": "Vile Parle West, Mumbai - MPCB-3379605",
+      "lat": 19.10861,
+      "lon": 72.83622,
+      "distance_km": 5.669762717992605,
+      "sample_key": "records/csv.gz/locationid=6987/year=2025/month=02/location-6987-20250219.csv.gz"
+    },
+    {
+      "city": "Hyderabad",
+      "location_id": 5599,
+      "station_name": "Bollaram Industrial Area, Hyderabad - TSPCB-3379551",
+      "lat": 17.540891,
+      "lon": 78.358528,
+      "distance_km": 22.029690833608747,
+      "sample_key": "records/csv.gz/locationid=5599/year=2025/month=02/location-5599-20250219.csv.gz"
+    },
+    {
+      "city": "Mumbai",
+      "location_id": 3409469,
+      "station_name": "Kasarvadavali, Thane - MPCB-3379885",
+      "lat": 19.26777,
+      "lon": 72.97182,
+      "distance_km": 23.50370163469174,
+      "sample_key": "records/csv.gz/locationid=3409469/year=2025/month=02/location-3409469-20250219.csv.gz"
+    },
+    {
+      "city": "Chennai",
+      "location_id": 11579,
+      "station_name": "Kodungaiyur, Chennai - TNPCB-3379659",
+      "lat": 13.1278,
+      "lon": 80.2642,
+      "distance_km": 5.064056571106687,
+      "sample_key": "records/csv.gz/locationid=11579/year=2025/month=02/location-11579-20250219.csv.gz"
+    },
+    {
+      "city": "Bengaluru",
+      "location_id": 2498781,
+      "station_name": "SiriJaya-2468573",
+      "lat": 12.909153635368195,
+      "lon": 77.52476183092863,
+      "distance_km": 10.271142559011642,
+      "sample_key": "records/csv.gz/locationid=2498781/year=2025/month=02/location-2498781-20250211.csv.gz"
+    },
+    {
+      "city": "Mumbai",
+      "location_id": 6945,
+      "station_name": "Kurla, Mumbai - MPCB-3379603",
+      "lat": 19.0863,
+      "lon": 72.8888,
+      "distance_km": 1.6347271774288448,
+      "sample_key": "records/csv.gz/locationid=6945/year=2025/month=02/location-6945-20250219.csv.gz"
+    },
+    {
+      "city": "Pune",
+      "location_id": 3409331,
+      "station_name": "Bhosari, Pune - IITM-3461860",
+      "lat": 18.640051,
+      "lon": 73.848956,
+      "distance_km": 13.32959720096362,
+      "sample_key": "records/csv.gz/locationid=3409331/year=2025/month=02/location-3409331-20250225.csv.gz"
+    },
+    {
+      "city": "Pune",
+      "location_id": 3409439,
+      "station_name": "Savitribai Phule Pune University, Pune - MPCB-3379856",
+      "lat": 18.547056,
+      "lon": 73.826908,
+      "distance_km": 4.318644093457371,
+      "sample_key": "records/csv.gz/locationid=3409439/year=2025/month=02/location-3409439-20250219.csv.gz"
+    },
+    {
+      "city": "Delhi",
+      "location_id": 10919,
+      "station_name": "Sanjay Nagar, Ghaziabad - UPPCB-3379595",
+      "lat": 28.685382,
+      "lon": 77.453839,
+      "distance_km": 25.179131195936886,
+      "sample_key": "records/csv.gz/locationid=10919/year=2025/month=02/location-10919-20250219.csv.gz"
+    },
+    {
+      "city": "Kolkata",
+      "location_id": 3409530,
+      "station_name": "Dasnagar, Howrah - WBPCB-3387275",
+      "lat": 22.6025571,
+      "lon": 88.3105664,
+      "distance_km": 6.4091680258511525,
+      "sample_key": "records/csv.gz/locationid=3409530/year=2025/month=02/location-3409530-20250219.csv.gz"
+    },
+    {
+      "city": "Hyderabad",
+      "location_id": 344142,
+      "station_name": "Nacharam_TSIIC IALA, Hyderabad - TSPCB-3379754",
+      "lat": 17.429398,
+      "lon": 78.569354,
+      "distance_km": 10.06387780948451,
+      "sample_key": "records/csv.gz/locationid=344142/year=2025/month=02/location-344142-20250219.csv.gz"
+    },
+    {
+      "city": "Bengaluru",
+      "location_id": 5548,
+      "station_name": "BTM Layout, Bengaluru - CPCB-3379546",
+      "lat": 12.9135218,
+      "lon": 77.5950804,
+      "distance_km": 6.458211029076799,
+      "sample_key": "records/csv.gz/locationid=5548/year=2025/month=02/location-5548-20250219.csv.gz"
+    },
+    {
+      "city": "Hyderabad",
+      "location_id": 407,
+      "station_name": "Zoo Park, Hyderabad - TSPCB-3379572",
+      "lat": 17.349694,
+      "lon": 78.451437,
+      "distance_km": 5.423757810664165,
+      "sample_key": "records/csv.gz/locationid=407/year=2025/month=02/location-407-20250219.csv.gz"
+    },
+    {
+      "city": "Ahmedabad",
+      "location_id": 301387,
+      "station_name": "Raikhad, Ahmedabad - IITM-3379688",
+      "lat": 23.020509,
+      "lon": 72.579261,
+      "distance_km": 0.8343945347079271,
+      "sample_key": "records/csv.gz/locationid=301387/year=2025/month=02/location-301387-20250219.csv.gz"
+    },
+    {
+      "city": "Kolkata",
+      "location_id": 10844,
+      "station_name": "Ghusuri, Howrah - WBPCB-3379562",
+      "lat": 22.611968,
+      "lon": 88.347422,
+      "distance_km": 4.693019145618944,
+      "sample_key": "records/csv.gz/locationid=10844/year=2025/month=02/location-10844-20250219.csv.gz"
+    },
+    {
+      "city": "Kolkata",
+      "location_id": 10904,
+      "station_name": "Rabindra Sarobar, Kolkata - WBPCB-3379619",
+      "lat": 22.51106,
+      "lon": 88.35142,
+      "distance_km": 6.961932383130105,
+      "sample_key": "records/csv.gz/locationid=10904/year=2025/month=02/location-10904-20250219.csv.gz"
+    },
+    {
+      "city": "Pune",
+      "location_id": 3409437,
+      "station_name": "Thergaon, Pimpri Chinchwad - MPCB-3385061",
+      "lat": 18.616318,
+      "lon": 73.765797,
+      "distance_km": 14.337549835529927,
+      "sample_key": "records/csv.gz/locationid=3409437/year=2025/month=02/location-3409437-20250219.csv.gz"
+    },
+    {
+      "city": "Ahmedabad",
+      "location_id": 227536,
+      "station_name": "Chandkheda, Ahmedabad - IITM-3379689",
+      "lat": 23.107969,
+      "lon": 72.574648,
+      "distance_km": 9.509526526316257,
+      "sample_key": "records/csv.gz/locationid=227536/year=2025/month=02/location-227536-20250219.csv.gz"
+    },
+    {
+      "city": "Ahmedabad",
+      "location_id": 228301,
+      "station_name": "IIPHG Lekawada, Gandhinagar - IITM-3379693",
+      "lat": 23.243639,
+      "lon": 72.68994,
+      "distance_km": 27.41475857210474,
+      "sample_key": "records/csv.gz/locationid=228301/year=2025/month=02/location-228301-20250219.csv.gz"
+    },
+    {
+      "city": "Bengaluru",
+      "location_id": 6975,
+      "station_name": "Silk Board, Bengaluru - KSPCB-3379537",
+      "lat": 12.917348,
+      "lon": 77.622813,
+      "distance_km": 6.763094155974651,
+      "sample_key": "records/csv.gz/locationid=6975/year=2025/month=02/location-6975-20250219.csv.gz"
+    },
+    {
+      "city": "Pune",
+      "location_id": 11613,
+      "station_name": "Revenue Colony-Shivajinagar, Pune - IITM-3379678",
+      "lat": 18.530085,
+      "lon": 73.849598,
+      "distance_km": 1.3116571463145288,
+      "sample_key": "records/csv.gz/locationid=11613/year=2025/month=02/location-11613-20250219.csv.gz"
+    },
+    {
+      "city": "Bengaluru",
+      "location_id": 6973,
+      "station_name": "Jayanagar 5th Block, Bengaluru - KSPCB-3379535",
+      "lat": 12.920984,
+      "lon": 77.584908,
+      "distance_km": 5.725404481116226,
+      "sample_key": "records/csv.gz/locationid=6973/year=2025/month=02/location-6973-20250219.csv.gz"
+    },
+    {
+      "city": "Chennai",
+      "location_id": 3409319,
+      "station_name": "Alandur Bus Depot, Chennai - CPCB-3379568",
+      "lat": 12.9099161,
+      "lon": 80.1076538,
+      "distance_km": 26.09975752364711,
+      "sample_key": "records/csv.gz/locationid=3409319/year=2025/month=02/location-3409319-20250219.csv.gz"
+    },
+    {
+      "city": "Kolkata",
+      "location_id": 6950,
+      "station_name": "Jadavpur, Kolkata - WBPCB-3379609",
+      "lat": 22.49929,
+      "lon": 88.36917,
+      "distance_km": 8.16964905384603,
+      "sample_key": "records/csv.gz/locationid=6950/year=2025/month=02/location-6950-20250219.csv.gz"
+    },
+    {
+      "city": "Chennai",
+      "location_id": 10780,
+      "station_name": "Manali Village, Chennai - TNPCB-3379598",
+      "lat": 13.1662,
+      "lon": 80.2584,
+      "distance_km": 9.379830588545476,
+      "sample_key": "records/csv.gz/locationid=10780/year=2025/month=02/location-10780-20250219.csv.gz"
+    }
+  ]
+}
