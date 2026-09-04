@@ -1,4 +1,4 @@
-# AtomsIQ — AI-Powered Air Quality & Weather Intelligence
+# AtmosIQ — AI-Powered Air Quality & Weather Intelligence
  
 AtomsIQ is a responsive AI-powered air quality and weather intelligence platform for Indian cities. It combines real-time OpenAQ observations, Open-Meteo weather data, and a Graph Convolutional Network (GCN) inference engine to analyze air quality and provide weather-aware insights.
  
