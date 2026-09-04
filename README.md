@@ -1,69 +1,118 @@
-# AirSight — Fast AI Air Quality & Live Weather
+# AtomsIQ — AI-Powered Air Quality & Weather Intelligence
+ 
+AtomsIQ is a responsive AI-powered air quality and weather intelligence platform for Indian cities. It combines real-time OpenAQ observations, Open-Meteo weather data, and a Graph Convolutional Network (GCN) inference engine to analyze air quality and provide weather-aware insights.
+ 
+The platform provides city-level AQI analysis, pollutant information, forecasts, live weather conditions, and AI-driven environmental insights through a modern responsive dashboard.
+ 
+## Key Features
+ 
+- 🌍 City-level air quality analysis
 
-A responsive React + FastAPI dashboard for Indian city air quality using the existing GCN inference engine, OpenAQ observations, and Open-Meteo weather.
+- 📊 GCN-based AQI prediction and inference
 
-## Performance upgrades
+- 🌤️ Live weather conditions using Open-Meteo
 
-The on-demand city analysis has been optimized to avoid unnecessary work:
+- 📅 Hourly and forecast weather information
 
-- OpenAQ station observations are fetched concurrently instead of one station at a time.
-- The prediction path downloads only the newest archive file when using the archive fallback; the old 3-day download is no longer used for the current snapshot.
-- Forecast station history uses the latest available snapshot and performs concurrent I/O.
-- Open-Meteo 24-hour data is cached for 5 minutes and reused across current-weather, weather, current-AQI, and forecast requests.
-- Discovered non-metro city profiles are persisted in `backend/data/runtime_city_cache.json`, so a city that has already been analyzed does not need to be rediscovered after a normal restart.
-- Optional OpenAQ v3 live API support is included. When `OPENAQ_API_KEY` is configured, on-demand city discovery and latest measurements use the live API instead of the much slower archive-bucket scan. This is the fastest path.
+- 💨 Pollutant and monitoring-station information from OpenAQ
 
-## Local setup
+- 🤖 AI-powered air quality and weather insights
 
-### Backend
-```bash
-cd backend
-python -m venv .venv
-# Windows PowerShell:
-# .\.venv\Scripts\Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
-pip install -r requirements.txt
-# Optional: set OPENAQ_API_KEY for fast OpenAQ v3 mode.
-python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
-```
+- 🗺️ Support for multiple Indian cities
 
+- 📱 Responsive design optimized for desktop, tablet, and mobile
+
+- ⚡ Optimized data fetching and concurrent API requests
+
+- 🚀 Production-ready deployment with Vercel and Render
+ 
+## Performance Optimizations
+ 
+The city analysis pipeline has been optimized to reduce unnecessary processing and API latency.
+ 
+- OpenAQ station observations are fetched concurrently instead of sequentially.
+
+- The current prediction path downloads only the newest available archive file when using the archive fallback.
+
+- Forecast station history uses the latest available snapshot with concurrent I/O.
+
+- Open-Meteo weather responses are cached for 5 minutes and reused across weather, AQI, and forecast requests.
+
+- Discovered non-metro city profiles are persisted in `backend/data/runtime_city_cache.json`, reducing repeated city discovery.
+
+- Optional OpenAQ v3 API support provides a faster path for city discovery and latest measurements when `OPENAQ_API_KEY` is configured.
+ 
+## Technology Stack
+ 
 ### Frontend
-```bash
-cd frontend
-npm install
-cp .env.example .env
-npm run dev
-```
+ 
+- React
 
-Windows users can use `Copy-Item .env.example .env` instead of `cp`.
+- TypeScript
 
-Set `VITE_API_BASE_URL` to the backend URL when deployed.
+- Vite
 
-## Render
+- Responsive CSS/UI
 
-The repository includes `backend/render.yaml`.
+- Recharts
 
-- Root directory: `backend`
-- Build: `pip install -r requirements.txt`
-- Start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-- Optional environment variable: `OPENAQ_API_KEY`
+- Leaflet / Maps
+ 
+### Backend
+ 
+- Python
 
-For maximum speed on the **Analyze city** feature, add a valid OpenAQ v3 API key to the Render service environment.
+- FastAPI
 
-## Vercel
+- Uvicorn
 
-Set the Vercel project root directory to `frontend`.
+- OpenAQ
 
-- Build command: `npm run build`
-- Output directory: `dist`
-- Environment variable: `VITE_API_BASE_URL=https://YOUR-RENDER-SERVICE.onrender.com`
+- Open-Meteo
 
-## API additions
+- Graph Convolutional Network (GCN)
 
-- `GET /city/{city}/weather` — live current weather + hourly weather forecast.
-- Existing GCN AQI and expansion endpoints remain available.
+- Machine Learning inference
+ 
+## Project Structure
+ 
+```text
 
-## Important
+AtomsIQ/
 
-Do not commit API keys. Use environment variables for deployment secrets.
+│
+
+├── backend/
+
+│   ├── app/
+
+│   ├── artifacts/
+
+│   ├── data/
+
+│   ├── scripts/
+
+│   ├── requirements.txt
+
+│   └── render.yaml
+
+│
+
+├── frontend/
+
+│   ├── src/
+
+│   ├── public/
+
+│   ├── package.json
+
+│   └── vite.config.*
+
+│
+
+├── vercel.json
+
+├── .gitignore
+
+└── README.md
+ 
